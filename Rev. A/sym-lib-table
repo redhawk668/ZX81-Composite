@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ZX81-Composite-rescue)(type Legacy)(uri "${KIPRJMOD}/ZX81 Composite-rescue.lib")(options "")(descr ""))
+)
