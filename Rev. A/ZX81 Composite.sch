@@ -171,17 +171,6 @@ $EndComp
 Wire Wire Line
 	6700 1950 6700 2300
 $Comp
-L Device:R R4
-U 1 1 60640DC9
-P 6700 3250
-F 0 "R4" H 6770 3296 50  0000 L CNN
-F 1 "56R" H 6770 3205 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6630 3250 50  0001 C CNN
-F 3 "~" H 6700 3250 50  0001 C CNN
-	1    6700 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L ZX81-Composite-rescue:NE555-Timer U1
 U 1 1 60641D68
 P 4300 3450
@@ -308,8 +297,6 @@ F 3 "~" H 5600 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6700 3400 6700 3600
-Wire Wire Line
 	5300 3250 5450 3250
 Connection ~ 5300 3250
 $Comp
@@ -343,8 +330,6 @@ F 3 "http://www.fairchildsemi.com/ds/BC/BC547.pdf" H 6200 3250 50  0001 L CNN
 	1    6200 3250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6700 2700 6700 3050
 $Comp
 L Device:R R3
 U 1 1 6065E069
@@ -360,9 +345,6 @@ Wire Wire Line
 	6300 3050 6350 3050
 Wire Wire Line
 	6650 3050 6700 3050
-Connection ~ 6700 3050
-Wire Wire Line
-	6700 3050 6700 3100
 Wire Wire Line
 	6300 3450 6300 5200
 Wire Wire Line
@@ -379,4 +361,20 @@ Wire Wire Line
 	2850 1950 4300 1950
 Text Label 3050 1950 0    50   ~ 0
 +5V
+$Comp
+L Device:R R4
+U 1 1 60A688D3
+P 6700 2850
+F 0 "R4" H 6770 2896 50  0000 L CNN
+F 1 "56R" H 6770 2805 50  0000 L CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6630 2850 50  0001 C CNN
+F 3 "~" H 6700 2850 50  0001 C CNN
+	1    6700 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3000 6700 3050
+Connection ~ 6700 3050
+Wire Wire Line
+	6700 3050 6700 3600
 $EndSCHEMATC
