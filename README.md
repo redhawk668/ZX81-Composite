@@ -1,7 +1,7 @@
 # ZX81 Composite Video with Backporch
 This PCB provides composite video for the ZX81, it replaces the internal PCB from the modulator. For ZX81's with earlier type ULA's it generates a back porch signal.
 
-It will work with the later 2C210 ULA, this ULA provides a backporch signal, so the 555 timer chip is not needed and can be removed. It is based on instructions and schematics found on zx.zigg.net.
+It will work with the later 2C210 ULA. However, this ULA provides a backporch signal, so the 555 timer chip is not needed and can be removed. It is based on instructions and schematics found on zx.zigg.net.
 
 ![alt text](https://github.com/redhawk668/ZX81-Composite/blob/main/Rev.%20A/ZX81%20Composite%20Front.png)
 
